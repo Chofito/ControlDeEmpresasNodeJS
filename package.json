@@ -1,0 +1,37 @@
+{
+  "name": "controldeempresasrest",
+  "version": "1.0.0",
+  "description": "Little project about NodeJS, Express and MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chofito/ControlDeEmpresasREST.git"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "mongodb",
+    "rest"
+  ],
+  "author": "Rodolfo Robles <Darksun>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Chofito/ControlDeEmpresasREST/issues"
+  },
+  "homepage": "https://github.com/Chofito/ControlDeEmpresasREST#readme",
+  "dependencies": {
+    "bcrypt-node": "^0.1.0",
+    "body-parser": "^1.18.3",
+    "connect-multiparty": "^2.2.0",
+    "express": "^4.16.4",
+    "jwt-simple": "^0.5.5",
+    "moment": "^2.24.0",
+    "mongoose": "^5.4.9",
+    "mongoose-validator": "^2.1.0",
+    "nodemon": "^1.18.9"
+  }
+}
